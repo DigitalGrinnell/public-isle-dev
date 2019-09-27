@@ -1,0 +1,69 @@
+site_name: Islandora Enterprise (ISLE)
+site_description: Documentation for Islandora Enterprise (ISLE)
+
+site_dir: site
+docs_dir: docs
+extra_css: [extra.css]
+extra_javascript: [extra.js]
+#markdown_extensions:
+#    - del_ins
+theme:
+  name: 'material'
+
+extra:
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  logo:
+    icon: 'account_balance'
+
+nav:
+- Get Started: index.md
+- 'Install ISLE':
+  - '1. Hardware Requirements': 'install/host-hardware-requirements.md'
+  - '2. Software Dependencies': 'install/host-software-dependencies.md'
+  - '3. Demo ISLE Installation': 'install/install-demo.md'
+  - '4. ISLE Installation':
+    - 'Overview: ISLE Environments': 'install/install-environments.md'
+    - 'Local: New Site': 'install/install-local-new.md'
+    - 'Local: Migrate Site': 'install/install-local-migrate.md'
+    - 'Staging: New Site': 'install/install-staging-new.md'
+    - 'Staging: Migrate Site': 'install/install-staging-migrate.md'
+    - 'Production: New Site': 'install/install-production-new.md'
+    - 'Production: Migrate Site': 'install/install-production-migrate.md'    
+    - 'Troubleshooting Guide': 'install/install-troubleshooting.md'
+- 'Update ISLE': 'update/update.md'
+- 'Appendices':
+  - 'Data Persistence in Docker': 'appendices/data-persistence.md'
+  - 'Glossary': 'appendices/glossary.md'
+  - 'Installing a Drupal Module with Composer': 'appendices/installing-module-with-composer.md'
+  - 'Installing a Drupal Module with Drush': 'appendices/installing-module-with-drush.md'
+  - 'Installing on Google Cloud Platform (Google Doc)': 'https://docs.google.com/document/d/1r-I9n8mUhlJ5Z-X9AO-RrikhzH6I8bTPIL25LmtRbxE'
+  - 'Let''s Encrypt: Free SSL Certificates' : 'appendices/configuring-lets-encrypt.md'
+  - 'Opening a Terminal in a Running Container': 'appendices/open-terminal-in-running-container.md'
+  - 'Sample IT Department Request Letter': 'appendices/sample-it-department-request.md'
+  - 'Troubleshooting': 'appendices/install-troubleshooting.md'
+  - 'User Stories':
+    - 'Demo ISLE Installation Example User Story': 'appendices/user-story-demo-site.md'
+    - 'New Site Example User Story': 'appendices/user-story-new-site.md'
+    - 'Migration Example User Story': 'appendices/user-story-migration-site.md'
+  - 'Warning about Red Hat Install': 'appendices/redhat.md'
+- 'Cookbook Recipes':
+  - 'ISLE Cheat Sheet: Docker Commands': 'cookbook-recipes/isle-cheatsheet-docker-commands.md'
+- 'About':
+  - 'Contributing to ISLE': 'about/contributing.md'
+  - 'About ISLE': 'about/about-isle.md'
+  - 'About Committers': 'about/committers.md'
+  - 'Contributor Docs':
+    - 'Docs: MkDocs': 'contributor-docs/mkdocs.md'
+    - 'Docs: Spell Checker': 'contributor-docs/spell-checker.md'
+    - 'Docs: Style Guide': 'contributor-docs/style-guide.md'
+    - 'Release Process': 'contributor-docs/release-process.md'
+    - 'Testing Guide': 'contributor-docs/testing-guide.md'
+  - 'Get Help': 'about/get-help.md'
+- 'Release Notes':
+  - 'Latest release: 1.2.0': 'release-notes/release-1-2-0.md'
+  - 'Previous releases':
+     - '1.1.2': 'release-notes/release-1-1-2.md'
+     - '1.1.1': 'release-notes/release-1-1-1.md'
+     - '1.1.0': 'release-notes/release-1-1-0.md'
