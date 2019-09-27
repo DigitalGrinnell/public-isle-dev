@@ -1,3 +1,9 @@
+| Attention! |
+| --- |
+| In this repository the project name is `public` and it's accessible at https://public.localdomain.  Whenever possible, the username and password combination has been set to: |
+| Username: `public` |
+| Password: `password` |
+
 # ISLE: Islandora Enterprise
 
 ## Introduction
